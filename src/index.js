@@ -20,7 +20,7 @@ class TodoApp extends React.Component {
     return (
 
       <div style={{overflow: "scroll",height:"100vh",width:"100vw",backgroundImage: "radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)"}}>
-   		<Header as='h2' style={{textAlign:"center",padding:"10px"}}>lill Haven</Header>
+   		<Header as='h2' style={{textAlign:"center",padding:"10px"}}>lil Haven</Header>
    		<div style={{overflow: "scroll",height:"85vh",width:"50vw",marginLeft : "25vw",alignItems:"center", justifyContent:"center", textAlign:"center",background:"#e9eef3"}}>
         	<TodoList items={this.state.items} />
         </div>
